@@ -5,5 +5,6 @@ public class aa {
 		
 		System.out.println(111);
 		System.err.println(111);
+		System.out.println("aaa");
 	}
 }

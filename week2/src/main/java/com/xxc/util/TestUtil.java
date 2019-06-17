@@ -21,6 +21,7 @@ public class TestUtil {
 	
 	public static HashSet<Integer> sum(Integer start,Integer end,Integer num){
 		HashSet<Integer> set=new HashSet<Integer>();
+		String cString="";
 		while (set.size()<num) {
 			Integer n=(int) (Math.random()*(end-start)+start);
 			set.add(n);
